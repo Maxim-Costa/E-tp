@@ -1,0 +1,124 @@
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container .Avatar {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+
+.rightText {
+  text-align: right;
+}
+
+.sendButton {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: DodgerBlue;
+  color: white;
+}
+
+.sendButton:hover {
+  background-color: royalblue;
+}
+
+#search {
+  height: 50px;
+  padding: 0px 0px;
+}
+
+.conatinerSend {
+  position: absolute;
+  bottom: 10px;
+}
+
+#containerMsg {
+  height: 50px;
+  overflow: auto;
+}
+
+.card {
+  /*width: 80px;*/
+  height: 80px;
+}
+
+.cardContainer {
+    min-height: 80px;
+    max-width: 300px;
+    height: fit-content;
+    background-color: white;
+    margin-left: 80px;
+    /*display: flex;*/
+    width: fit-content;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.cardDesc {
+    font-size: small;
+    margin: 5px 5px;
+    overflow: hidden;
+    /*height: 33px;*/
+    font-size: 14px;
+}
+
+.mainContainer {
+  /*border-left: 1px solid gray;*/
+  padding-left: 10px;
+  /*margin-left: 10px;*/
+  border-radius: 15px;
+}
+
+.cardImgContainer {
+    padding-left: 10px;
+    align-self: center;
+    margin-bottom: -5px;
+    text-align-last: center;
+    padding-top: 5px;
+}
+
+.mainContainer>div {
+  text-align-last: center;
+}
+
+.mainContainer>div>a {
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: none;
+    color: #0002ff;
+}
